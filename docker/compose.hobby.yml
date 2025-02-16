@@ -22,7 +22,7 @@ services:
             - ../backend/localhostssl/server.key:/etc/ssl/private/ssl-cert.key
             - ../backend/localhostssl/server.pem:/etc/ssl/certs/ssl-cert.pem
         ports:
-            - '0.0.0.0:3000:3000'
+            - '0.0.0.0:3713:3000'
             - '0.0.0.0:6006:6006'
             - '0.0.0.0:8080:8080'
         env_file: .env
